@@ -2,9 +2,11 @@
     "name": "user/appmaestro",
     "license": "proprietary",
     "type": "project",
+    "description": "Knowledge on-demand",
     "autoload": {
         "psr-4": {
-            "": "src/",
+            "Kod\\": "src/",
+            "classmap": ["app/AppKernel.php"],
             "SymfonyStandard\\": "app/SymfonyStandard/"
         }
     },
