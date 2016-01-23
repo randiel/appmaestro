@@ -6,8 +6,7 @@
     "autoload": {
         "psr-4": {
             "Kod\\": "src/",
-            "classmap": ["app/AppKernel.php"],
-            "SymfonyStandard\\": "app/SymfonyStandard/"
+            "classmap": ["app/AppKernel.php"]
         }
     },
     "require": {
