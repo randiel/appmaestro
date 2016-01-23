@@ -1,13 +1,11 @@
 {
-    "name": "user/appmaestro",
+    "name": "randiel/appmaestro",
     "license": "proprietary",
     "type": "project",
     "description": "Knowledge on-demand",
     "autoload": {
-        "psr-4": {
-            "Kod\\": "src/",
-            "classmap": ["app/AppKernel.php"]
-        }
+        "psr-4": { "Kod\\": "src/" },
+        "classmap": ["app/AppKernel.php"]
     },
     "require": {
         "php": ">=5.3.9",
@@ -56,7 +54,7 @@
         "symfony-web-dir": "web",
         "symfony-assets-install": "relative",
         "incenteev-parameters": {
-            "file": "app/config/parameters.yml"
+            "file": "app/config/common/parameters.yml"
         }
     }
 }

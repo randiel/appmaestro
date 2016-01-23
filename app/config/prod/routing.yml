@@ -1,3 +1,0 @@
-app:
-    resource: "@Application/Controller/"
-    type:     annotation

@@ -1,22 +1,16 @@
 # This file is auto-generated during the composer install
 parameters:
-    locale: en
-    parameter_asset_version: 0.1.0
-    channel: http
-    admin_email: randielmelgarejo@gmail.com
-    email_sender_address: randielmelgarejo@gmail.com
-    email_sender_name: Randiel Melgarejo
-    email_sender: { %email_sender_address%: %email_sender_name% }
-
     database_host: 127.0.0.1
     database_port: null
     database_name: symfony
     database_user: root
     database_password: null
-    
     mailer_transport: smtp
     mailer_host: 127.0.0.1
     mailer_user: null
     mailer_password: null
     secret: 8dc613fe79a12121e2e18f4fc9a0b961b999433b
-
+    mailer_port: 1025
+    assets_version_parameter: 0.0.2
+    disable_mailer_delivery: true
+    mailer_protocol: null
