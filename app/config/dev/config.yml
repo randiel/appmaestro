@@ -1,3 +1,4 @@
+# Main config file configuration
 imports:
     - { resource: ../common/config.yml }
     - { resource: parameters.yml }
